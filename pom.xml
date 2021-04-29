@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.misolab</groupId>
-    <artifactId>signle</artifactId>
+    <artifactId>single</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>signle</name>
+    <name>single</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
