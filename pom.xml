@@ -28,6 +28,9 @@
         <!--  web  -->
         <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <!--  app  -->
+        <webjars-locator.version>0.30</webjars-locator.version>
+        <vue.version>2.6.11</vue.version>
 
     </properties>
 
@@ -182,7 +185,17 @@
             <version>${springfox-swagger2.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator</artifactId>
+            <version>${webjars-locator.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>vue</artifactId>
+            <version>${vue.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
