@@ -10,7 +10,7 @@ public class BaseController {
     @ModelAttribute("common")
     public Map<String, String> common() {
         Map<String, String> model = new HashMap<>();
-        
+
         return model;
     }
 }
