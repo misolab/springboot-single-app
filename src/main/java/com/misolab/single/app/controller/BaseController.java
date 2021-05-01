@@ -1,16 +1,12 @@
 package com.misolab.single.app.controller;
 
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class BaseController {
 
     @ModelAttribute("common")
-    public Map<String, String> common() {
-        Map<String, String> model = new HashMap<>();
+    public void common(Model model) {
 
-        return model;
     }
 }
